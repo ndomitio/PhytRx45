@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c6194dbc80e84194a5a278c6eb3eafeb" Name="Diagram1">
+        <EntityTypeShape EntityType="TESTER2Model.Duration" Width="1.5" PointX="5.25" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TESTER2Model.Exercise" Width="1.5" PointX="3" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TESTER2Model.Log" Width="1.5" PointX="5.25" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TESTER2Model.Patient" Width="1.5" PointX="8.25" PointY="12.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="TESTER2Model.Physician" Width="1.5" PointX="3" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TESTER2Model.RX" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="TESTER2Model.FK_Duration_Exercise" ManuallyRouted="false" />
+        <AssociationConnector Association="TESTER2Model.FK_Exercise_RX" ManuallyRouted="false" />
+        <AssociationConnector Association="TESTER2Model.FK_Logs_Patient" ManuallyRouted="false" />
+        <AssociationConnector Association="TESTER2Model.FK_Logs_Physicians" ManuallyRouted="false" />
+        <AssociationConnector Association="TESTER2Model.FK_Logs_RX" ManuallyRouted="false" />
+        <AssociationConnector Association="TESTER2Model.FK_Patient_Physicians" ManuallyRouted="false" />
+        <AssociationConnector Association="TESTER2Model.FK_Patient_RX" ManuallyRouted="false" />
+        <AssociationConnector Association="TESTER2Model.FK_Physicians_RX" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
